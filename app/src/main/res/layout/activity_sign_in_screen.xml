@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    tools:context=".SignInScreen">
+
+    <ImageView
+        android:id="@+id/signin_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50sp"
+        android:src="@drawable/signin_logo" />
+
+    <ImageView
+        android:id="@+id/signin_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/signin_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22sp"
+
+
+        android:src="@drawable/signin_name" />
+
+    <EditText
+        android:id="@+id/signin_form_email"
+        style="@style/forms"
+        android:layout_below="@id/signin_name"
+        android:layout_marginTop="72sp"
+        android:ems="10"
+        android:hint="@string/form_email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/signin_form_password"
+        style="@style/forms"
+        android:ems="10"
+        android:layout_below="@id/signin_form_email"
+        android:layout_marginTop="16sp"
+        android:hint="@string/form_password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/signin_signin_btn"
+        style="@style/buttons"
+        android:layout_above="@id/signin_register_btn"
+        android:layout_marginBottom="16sp"
+
+        android:backgroundTint="@color/secondary"
+        android:text="@string/signin_signin_btn"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/signin_register_btn"
+        style="@style/buttons"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="24sp"
+        android:text="@string/signin_register_btn"
+        android:textColor="@color/secondary"
+        android:background="@drawable/forms_border"/>
+</RelativeLayout>

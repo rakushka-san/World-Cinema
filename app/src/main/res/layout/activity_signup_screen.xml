@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    tools:context=".SignUpScreen">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/signup_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="42sp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/signup_logo"/>
+
+        <ImageView
+            android:id="@+id/signup_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/signup_logo"
+            android:layout_marginTop="31sp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/singup_name"
+            />
+
+        <EditText
+            android:id="@+id/signup_form_name"
+            android:ems="10"
+            style="@style/forms"
+            android:inputType="textPersonName"
+            android:hint="@string/form_name"
+            android:layout_marginTop="32sp"
+            android:layout_below="@id/signup_name"/>
+
+        <EditText
+            android:id="@+id/signup_form_surname"
+            style="@style/forms"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="@string/form_surname"
+            android:layout_marginTop="16sp"
+            android:layout_below="@id/signup_form_name"/>
+
+        <EditText
+            android:id="@+id/signup_form_email"
+            style="@style/forms"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:hint="@string/form_email"
+            android:layout_marginTop="16sp"
+            android:layout_below="@id/signup_form_surname"/>
+
+        <EditText
+            android:id="@+id/signup_form_password"
+            style="@style/forms"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:hint="@string/form_password"
+            android:layout_marginTop="16sp"
+            android:layout_below="@id/signup_form_email"/>
+
+        <EditText
+            android:id="@+id/signup_form_repeat_password"
+            style="@style/forms"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:hint="@string/form_repeat_password"
+            android:layout_marginTop="16sp"
+            android:layout_below="@id/signup_form_password"/>
+
+        <Button
+            android:id="@+id/signup_signup_btn"
+            style="@style/buttons"
+            android:layout_below="@id/signup_form_repeat_password"
+            android:backgroundTint="@color/secondary"
+            android:text="@string/signup_signup_btn"
+            android:layout_marginTop="60sp"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/signup_has_account_btn"
+            style="@style/buttons"
+            android:layout_below="@id/signup_signup_btn"
+            android:text="@string/signup_has_account_btn"
+            android:textColor="@color/secondary"
+            android:layout_marginTop="16sp"
+            android:background="@drawable/forms_border"/>
+
+
+    </RelativeLayout>
+</ScrollView>
