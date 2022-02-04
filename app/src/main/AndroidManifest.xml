@@ -8,7 +8,8 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.WorldCinema">
+        android:theme="@style/Theme.WorldCinema"
+        android:screenOrientation="landscape">
         <activity
             android:name=".MainScreen"
             android:exported="false" />
