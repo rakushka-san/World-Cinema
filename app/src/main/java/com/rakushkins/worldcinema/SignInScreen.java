@@ -36,14 +36,7 @@ public class SignInScreen extends AppCompatActivity {
             }
         });
 
-        Button register_btn = (Button) findViewById(R.id.signin_register_btn);
-        register_btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent toSignUpScreen = new Intent(SignInScreen.this, SignUpScreen.class);
-                startActivity(toSignUpScreen);
-            }
-        });
+
 
     }
 }
