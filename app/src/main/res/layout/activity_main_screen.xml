@@ -150,12 +150,13 @@
         android:layout_alignParentLeft="true"
         android:background="@color/bars"
         android:orientation="vertical">
+
         <ImageView
             android:id="@+id/left_bar_one"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="63sp"
             android:layout_centerHorizontal="true"
+            android:layout_marginTop="63sp"
             app:srcCompat="@drawable/left_bar_one" />
 
         <TextView
@@ -164,12 +165,12 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/left_bar_one"
             android:layout_centerHorizontal="true"
-            android:textColor="@color/secondary"
-            android:fontFamily="@font/roboto"
-            android:textFontWeight="500"
-            android:textSize="10sp"
             android:layout_marginTop="5sp"
-            android:text="@string/left_bar_one_text" />
+            android:fontFamily="@font/roboto"
+            android:text="@string/left_bar_one_text"
+            android:textColor="@color/secondary"
+            android:textFontWeight="500"
+            android:textSize="10sp" />
 
         <ImageView
             android:id="@+id/left_bar_two"
@@ -186,12 +187,12 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/left_bar_two"
             android:layout_centerHorizontal="true"
-            android:textColor="@color/bars_elem"
-            android:fontFamily="@font/roboto"
-            android:textFontWeight="500"
-            android:textSize="10sp"
             android:layout_marginTop="5sp"
-            android:text="@string/left_bar_two_text" />
+            android:fontFamily="@font/roboto"
+            android:text="@string/left_bar_two_text"
+            android:textColor="@color/bars_elem"
+            android:textFontWeight="500"
+            android:textSize="10sp" />
 
         <ImageView
             android:id="@+id/left_bar_three"
@@ -208,12 +209,21 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/left_bar_three"
             android:layout_centerHorizontal="true"
-            android:textColor="@color/bars_elem"
-            android:fontFamily="@font/roboto"
-            android:textFontWeight="500"
-            android:textSize="10sp"
             android:layout_marginTop="5sp"
-            android:text="@string/left_bar_three_text" />
+            android:fontFamily="@font/roboto"
+            android:text="@string/left_bar_three_text"
+            android:textColor="@color/bars_elem"
+            android:textFontWeight="500"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/mainscr_exit_btn"
+            style="@style/buttons"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="16sp"
+            android:text="@string/mainscr_exit_btn"
+            android:textColor="@color/secondary"
+            android:background="@drawable/forms_border"/>
     </RelativeLayout>
 
     <ImageView

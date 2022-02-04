@@ -23,4 +23,5 @@
     <string name="top_bar_three_text">Настройки</string>
     <string name="mainscr_name">Владимир Путин</string>
     <string name="mainscr_email">frickusa@mail.ru</string>
+    <string name="mainscr_exit_btn">Выход</string>
 </resources>
