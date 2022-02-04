@@ -36,6 +36,8 @@ public class SignUpScreen extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(), R.string.passwords_not_equal, Toast.LENGTH_LONG).show();
                 } else {
                     //request
+                    Intent toSignInScreen = new Intent(SignUpScreen.this, SignInScreen.class);
+                    startActivity(toSignInScreen);
                 }
             }
         });

@@ -14,4 +14,13 @@
     <string name="email_requirements">E-mail должен содержать символ @ и состоять только из строчных букв</string>
     <string name="not_filled">Все поля обязательны для заполнения</string>
     <string name="passwords_not_equal">Пароли должны совпадать</string>
+    <string name="left_bar_one_text">Главное</string>
+    <string name="left_bar_two_text">Подборка</string>
+    <string name="left_bar_three_text">Коллекции</string>
+    <string name="last_view">Вы смотрели</string>
+    <string name="top_bar_one_text">Обсуждения</string>
+    <string name="top_bar_two_text">История</string>
+    <string name="top_bar_three_text">Настройки</string>
+    <string name="mainscr_name">Владимир Путин</string>
+    <string name="mainscr_email">frickusa@mail.ru</string>
 </resources>
